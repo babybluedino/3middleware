@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.5//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hbm2ddl.auto">update</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<!-- driver class name is -->
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<!-- url -->
+		<property name="hibernate.connection.url">jdbc:mysql://localhost/friday?zeroDateTimeBehavior=convertToNull</property>
+		<!-- username -->
+		<property name="hibernate.connection.username">root</property>
+		<!-- password -->
+		<property name="hibernate.connection.password">admin</property>
+		<!-- mapping using resource(file) -->
+		<mapping resource="hibernate.hbm.xml"/>
+	</session-factory>
+</hibernate-configuration>

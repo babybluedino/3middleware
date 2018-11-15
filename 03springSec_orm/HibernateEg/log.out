@@ -1,0 +1,214 @@
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: hibernate.cfg.xml
+Configuration resource: hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: hibernate.cfg.xml
+Configuration resource: hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: hibernate.cfg.xml
+Configuration resource: hibernate.cfg.xml
+Reading mappings from resource : employee.hbm.xml
+Mapping class: Employee -> emp1000
+Configured SessionFactory: null
+Using Hibernate built-in connection pool (not for production use!)
+Hibernate connection pool size: 20
+autocommit mode: false
+using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/abcd?zeroDateTimeBehavior=convertToNull
+connection properties: {user=root, password=****}
+RDBMS: MySQL, version: 5.5.45-log
+JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+Using dialect: org.hibernate.dialect.MySQLDialect
+Using default transaction strategy (direct JDBC transactions)
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+JDBC3 getGeneratedKeys(): enabled
+Connection release mode: auto
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache provider: org.hibernate.cache.NoCacheProvider
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+building session factory
+Not binding factory to JNDI, no JNDI name configured
+Running hbm2ddl schema update
+fetching database metadata
+updating schema
+Using Hibernate built-in connection pool (not for production use!)
+Hibernate connection pool size: 20
+autocommit mode: false
+using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/abcd?zeroDateTimeBehavior=convertToNull
+connection properties: {user=root, password=****}
+RDBMS: MySQL, version: 5.5.45-log
+JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+Using dialect: org.hibernate.dialect.MySQLDialect
+Using default transaction strategy (direct JDBC transactions)
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+JDBC3 getGeneratedKeys(): enabled
+Connection release mode: auto
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache provider: org.hibernate.cache.NoCacheProvider
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+table not found: emp1000
+table not found: emp1000
+schema update complete
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: hibernate.cfg.xml
+Configuration resource: hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: hibernate.cfg.xml
+Configuration resource: hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: hibernate.cfg.xml
+Configuration resource: hibernate.cfg.xml
+Reading mappings from resource : employee.hbm.xml
+Mapping class: Employee -> emp1000
+Configured SessionFactory: null
+Using Hibernate built-in connection pool (not for production use!)
+Hibernate connection pool size: 20
+autocommit mode: false
+using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/abcd?zeroDateTimeBehavior=convertToNull
+connection properties: {user=root, password=****}
+RDBMS: MySQL, version: 5.5.45
+JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+Using dialect: org.hibernate.dialect.MySQLDialect
+Using default transaction strategy (direct JDBC transactions)
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+JDBC3 getGeneratedKeys(): enabled
+Connection release mode: auto
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache provider: org.hibernate.cache.NoCacheProvider
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+building session factory
+Not binding factory to JNDI, no JNDI name configured
+Running hbm2ddl schema update
+fetching database metadata
+updating schema
+Using Hibernate built-in connection pool (not for production use!)
+Hibernate connection pool size: 20
+autocommit mode: false
+using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/abcd?zeroDateTimeBehavior=convertToNull
+connection properties: {user=root, password=****}
+RDBMS: MySQL, version: 5.5.45
+JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+Using dialect: org.hibernate.dialect.MySQLDialect
+Using default transaction strategy (direct JDBC transactions)
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+JDBC3 getGeneratedKeys(): enabled
+Connection release mode: auto
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache provider: org.hibernate.cache.NoCacheProvider
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+table not found: emp1000
+table not found: emp1000
+schema update complete
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: hibernate.cfg.xml
+Configuration resource: hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: hibernate.cfg.xml
+Configuration resource: hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: hibernate.cfg.xml
+Configuration resource: hibernate.cfg.xml
+HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+HHH000412: Hibernate Core {4.1.6.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: hibernate.cfg.xml
+HHH000040: Configuration resource: hibernate.cfg.xml

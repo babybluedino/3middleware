@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+  
+ <hibernate-mapping>
+ 	<!-- source table -->
+ 	<class name="com.egg.Employee" table="emptbl">
+ 		<id name="id" type="int" column="id">
+ 			<generator class="native"/>	
+ 		</id>
+ 		<!-- need to specify address which has multiple elements in it -->
+ 		<set name="address" cascade="all">
+ 			<key column="emp_id" />
+ 			<one-to-many class="com.egg.Address" />
+ 		</set>
+ 		<property name="name" column="ename" type="string" />
+ 		<property name="dept" column="edept" type="string" />
+ 	</class>
+ 	
+ 	<!-- destination table -->
+ 	<class name="com.egg.Address" table="addrtbl">
+ 		<id name="id" type="int" column="id">
+ 			<generator class="native"/>
+ 		</id>
+ 		<property name="street" column="astreet" type="string" />
+ 		<property name="city" column="acity" type="string" />		
+ 	</class>
+ </hibernate-mapping> 

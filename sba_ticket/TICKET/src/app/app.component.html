@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f25d;">
+    <a class="navbar-brand" routerLink="/">Welcome To Ver Ticketing System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/listTasks">Get All Tickets <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/addTicket">Add Ticket</a>
+        </li>
+        
+      </ul>
+    </div>
+    <form class="form-inline">
+      <div class="input-group">
+          <input type="text" name="srchValue" class="form-control" 
+          [(ngModel)]="srchValue"
+          required #srch placeholder="Raised By" />
+          <div class="input-group-prepend">
+            
+            <button class="btn btn-primary" (click)="doSearch()">
+              SEARCH
+            </button>
+          </div>
+        </div>
+  </form>
+  </nav>
+  <div style="margin-top:3.5%;padding:1px 16px;height:1000px;">
+      <router-outlet></router-outlet>
+    </div>

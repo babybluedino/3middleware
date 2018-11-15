@@ -1,0 +1,395 @@
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Reading mappings from resource : hibernate.hbm.xml
+Mapping class: Employee -> EMPLOYEE
+Mapping class: Address -> ADDRESS
+Configured SessionFactory: null
+Using Hibernate built-in connection pool (not for production use!)
+Hibernate connection pool size: 20
+autocommit mode: false
+using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/honetoone?zeroDateTimeBehavior=convertToNull
+connection properties: {user=root, password=****}
+Could not obtain connection metadata
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'honetoone'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:894)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3808)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1256)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2032)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:729)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:283)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:110)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:76)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2006)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1289)
+	at ManageEmployee.main(ManageEmployee.java:18)
+Using dialect: org.hibernate.dialect.MySQLDialect
+Using default transaction strategy (direct JDBC transactions)
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+Scrollable result sets: disabled
+JDBC3 getGeneratedKeys(): disabled
+Connection release mode: auto
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache provider: org.hibernate.cache.NoCacheProvider
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+building session factory
+Not binding factory to JNDI, no JNDI name configured
+Running hbm2ddl schema update
+fetching database metadata
+could not get database metadata
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'honetoone'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:894)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3808)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1256)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2032)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:729)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:283)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:110)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:27)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:127)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:314)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1291)
+	at ManageEmployee.main(ManageEmployee.java:18)
+could not complete schema update
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'honetoone'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:894)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3808)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1256)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2032)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:729)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:283)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:110)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:27)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:127)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:314)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1291)
+	at ManageEmployee.main(ManageEmployee.java:18)
+SQL Error: 1049, SQLState: 42000
+Unknown database 'honetoone'
+SQL Error: 1049, SQLState: 42000
+Unknown database 'honetoone'
+SQL Error: 1049, SQLState: 42000
+Unknown database 'honetoone'
+SQL Error: 1049, SQLState: 42000
+Unknown database 'honetoone'
+SQL Error: 1049, SQLState: 42000
+Unknown database 'honetoone'
+SQL Error: 1049, SQLState: 42000
+Unknown database 'honetoone'
+SQL Error: 1049, SQLState: 42000
+Unknown database 'honetoone'
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Reading mappings from resource : hibernate.hbm.xml
+Mapping class: Employee -> EMPLOYEE
+Mapping class: Address -> ADDRESS
+Configured SessionFactory: null
+Using Hibernate built-in connection pool (not for production use!)
+Hibernate connection pool size: 20
+autocommit mode: false
+using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/honetoone?zeroDateTimeBehavior=convertToNull
+connection properties: {user=root, password=****}
+RDBMS: MySQL, version: 5.5.45
+JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+Using dialect: org.hibernate.dialect.MySQLDialect
+Using default transaction strategy (direct JDBC transactions)
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+JDBC3 getGeneratedKeys(): enabled
+Connection release mode: auto
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache provider: org.hibernate.cache.NoCacheProvider
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+building session factory
+Not binding factory to JNDI, no JNDI name configured
+Running hbm2ddl schema update
+fetching database metadata
+updating schema
+Using Hibernate built-in connection pool (not for production use!)
+Hibernate connection pool size: 20
+autocommit mode: false
+using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/honetoone?zeroDateTimeBehavior=convertToNull
+connection properties: {user=root, password=****}
+RDBMS: MySQL, version: 5.5.45
+JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+Using dialect: org.hibernate.dialect.MySQLDialect
+Using default transaction strategy (direct JDBC transactions)
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+JDBC3 getGeneratedKeys(): enabled
+Connection release mode: auto
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache provider: org.hibernate.cache.NoCacheProvider
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+table not found: ADDRESS
+Using Hibernate built-in connection pool (not for production use!)
+Hibernate connection pool size: 20
+autocommit mode: false
+using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/honetoone?zeroDateTimeBehavior=convertToNull
+connection properties: {user=root, password=****}
+RDBMS: MySQL, version: 5.5.45
+JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+Using dialect: org.hibernate.dialect.MySQLDialect
+Using default transaction strategy (direct JDBC transactions)
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+JDBC3 getGeneratedKeys(): enabled
+Connection release mode: auto
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache provider: org.hibernate.cache.NoCacheProvider
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+table not found: EMPLOYEE
+table not found: ADDRESS
+table not found: EMPLOYEE
+schema update complete
+cleaning up connection pool: jdbc:mysql://localhost:3306/honetoone?zeroDateTimeBehavior=convertToNull
+cleaning up connection pool: jdbc:mysql://localhost:3306/honetoone?zeroDateTimeBehavior=convertToNull
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Error parsing XML: /hibernate.cfg.xml(-1) Premature end of file.
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Error parsing XML: /hibernate.cfg.xml(-1) Premature end of file.
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Error parsing XML: /hibernate.cfg.xml(-1) Premature end of file.
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Error parsing XML: /hibernate.cfg.xml(-1) Premature end of file.
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Error parsing XML: /hibernate.cfg.xml(-1) Premature end of file.
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml
+Hibernate 3.2.1
+hibernate.properties not found
+Bytecode provider name : cglib
+using JDK 1.4 java.sql.Timestamp handling
+configuring from resource: /hibernate.cfg.xml
+Configuration resource: /hibernate.cfg.xml

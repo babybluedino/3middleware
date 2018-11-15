@@ -1,0 +1,31 @@
+<table class="table table-borderless">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Raised By</th>
+        <th scope="col">Created Date</th>
+        <th scope="col">Assigned To</th>
+        <th scope="col">Subject</th>
+        <th scope="col">Description</th>
+        <th scope="col">Current State</th>
+        <th scope="col">Modifications</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let n of tickets">
+        
+        <td>{{n.id}}</td>
+        <td>{{n.raisedBy}}</td>
+        <td>{{n.createdDate}}</td>
+        <td>{{n.assignedTo}}</td>
+        <td>{{n.subject}}</td>
+        <td>{{n.description}}</td>
+        <td>{{n.currentState}}</td>
+        <td>
+          <button type="button" class="btn btn-outline-danger btn-sm" style="margin: 4px 2px" routerLink="/deleteTicket/{{n.id}}">Delete</button>
+          <button type="button" class="btn btn-outline-warning btn-sm" style="margin: 4px 2px" routerLink="/updateTicket/{{n.id}}">Update</button>
+          <button type="button" class="btn btn-outline-info btn-sm" style="margin: 4px 2px" routerLink="/viewTicket/{{n.id}}">View</button>
+        </td> </tr>
+    
+    </tbody>
+  </table>
